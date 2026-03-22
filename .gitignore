@@ -1,0 +1,19 @@
+# PMDA Downloaded Data (Drug folders)
+# 모든 일본어 약품명 폴더 및 PDF 데이터를 제외합니다.
+**/
+!*.py
+!*.sh
+!*.txt
+!*.html
+!*.md
+!*.json
+!상품명
+!.gitignore
+!.venv/
+!.DS_Store
+
+# Temporary and log files
+*.log
+__pycache__/
+.pytest_cache/
+.wdm/

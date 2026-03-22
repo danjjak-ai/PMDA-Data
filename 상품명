@@ -1,0 +1,62 @@
+がん
+(위암)	
+1	キイトルーダ	ペムブロリズマブ	免疫チェックポイント阻害薬
+2	オプジーボ	ニボルマブ	免疫チェックポイント阻害薬
+3	エンハーツ	トラスツズマブ デルクステカン	ADC（抗体薬物複合体）
+4	サイラムザ	ラムシルマブ	血管新生阻害薬
+5	ビロイ	ゾルベツキシマブ	抗CLDN18.2抗体
+肝がん
+(간암)	1	テセントリク	アテゾリズマブ	免疫チェックポイント阻害薬
+2	アバスチン	ベバシズマブ	血管新生阻害薬
+3	イミフィンジ	デュルバルマブ	免疫チェックポイント阻害薬
+4	レンビマ	レンバチニブ	分子標的薬 (マルチキナーゼ阻害薬)
+5	ネクサバール	ソラフェニブ	分子標적약 (マルチキナーゼ阻害薬)
+肺がん
+(폐암)	1	タグリッソ	オシメルチニブ	分子標的薬 (EGFR阻害薬)
+2	キイトルーダ	ペムブロリズマブ	免疫チェックポイント阻害薬
+3	オプジーボ	ニボルマブ	免疫チェックポイント阻害薬
+4	アレセンサ	アレクチニブ	分子標적약 (ALK阻害薬)
+5	イミフィンジ	デュルバルマブ	免疫チェックポイント阻害薬
+
+
+./pmda_downloader.py --drug "キイトルーダ"
+./pmda_downloader.py --drug "オプジーボ"
+./pmda_downloader.py --drug "エンハーツ"
+./pmda_downloader.py --drug "サイラムザ"
+./pmda_downloader.py --drug "ビロイ"
+
+./pmda_downloader.py --drug "テセントリク"
+./pmda_downloader.py --drug "アバスチン"
+./pmda_downloader.py --drug "イミフィンジ"
+./pmda_downloader.py --drug "レンビマ"
+./pmda_downloader.py --drug "ネクサバール"
+
+./pmda_downloader.py --drug "タグリッソ"
+./pmda_downloader.py --drug "アレセンサ"
+
+
+
+
+./pmda_downloader.py --drug "アレセンサ"
+
+
+엔레스트 (Entresto / エンレスト) - 만성 심부전/고혈압 치료제 (1위)
+./pmda_downloader.py --drug "エンレスト"
+레보레이드 (Revolade / レボレード) - 혈소판 감소증 치료제
+./pmda_downloader.py --drug "レボレード" 
+자카비 (Jakavi / ジャカビ) - 골수섬유증/항악성종양제
+./pmda_downloader.py --drug "ジャカビ" 
+엑메트 (Equmet / エクメット) - 당뇨병 치료제
+./pmda_downloader.py --drug "エクメット" 
+케심프타 (Kesimpta / ケシンプタ) - 다발성 경화증 치료제
+./pmda_downloader.py --drug "ケシンプタ" 
+이라리스 (Ilaris / イラリス) - 자가면역질환 치료제
+./pmda_downloader.py --drug "イラリス" 
+타시그나 (Tasigna / タシグナ) - 만성 골수성 백혈병 치료제
+./pmda_downloader.py --drug "タシグナ" 
+셈블릭스 (Scemblix / セムブリックス) - 만성 골수성 백혈병 치료제
+./pmda_downloader.py --drug "セムブリックス" 
+엑쿠아 (Equa / エクア) - 당뇨병 치료제
+./pmda_downloader.py --drug "エクア" 
+졸레어 (Xolair / ゾレア) - 알레르기성 천식/두드러기 치료제
+./pmda_downloader.py --drug "ゾレア" 

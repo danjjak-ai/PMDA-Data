@@ -1,0 +1,108 @@
+G_オプジーボ点滴静注20mg／オプジーボ点滴静注100mg／オプジーボ点滴静注120mg／オプジーボ点滴静注240mg: https://www.info.pmda.go.jp/downfiles/ph/GUI/180188_4291427A1024_1_00G.pdf
+F1_オプジーボ点滴静注20mg／オプジーボ点滴静注100mg／オプジーボ点滴静注120mg／オプジーボ点滴静注240mg: https://www.info.pmda.go.jp/go/interview/1/180188_4291427A1024_1_047_1F.pdf
+○: https://www.pmda.go.jp/RMP/www/180188/a3a75261-9c19-4494-a9ff-cb2cf22dfa5b/180188_4291427A1024_039RMP.pdf
+適正使用ガイド（併用療法）: https://www.pmda.go.jp/RMP/www/180188/a3a75261-9c19-4494-a9ff-cb2cf22dfa5b/180188_4291427A1024_10_024RMPm.pdf
+適正使用ガイド（単剤療法）: https://www.pmda.go.jp/RMP/www/180188/a3a75261-9c19-4494-a9ff-cb2cf22dfa5b/180188_4291427A1024_09_025RMPm.pdf
+オプジーボによる治療を受ける方 ...: https://www.pmda.go.jp/RMP/www/180188/a3a75261-9c19-4494-a9ff-cb2cf22dfa5b/180188_4291427A1024_08_026RMPm.pdf
+ギラン・バレー症候群: https://www.info.pmda.go.jp/juutoku/file/jfm2203034.pdf
+スティーヴンス・ジョンソン症候群: https://www.info.pmda.go.jp/juutoku/file/jfm1707003.pdf
+中毒性表皮壊死融解症（中毒性表皮壊死症）: https://www.info.pmda.go.jp/juutoku/file/jfm1707002.pdf
+免疫チェックポイント阻害薬による免疫関連有害事象対策マニュアル: https://www.info.pmda.go.jp/juutoku/file/jfm2203004.pdf
+多形紅斑: https://www.info.pmda.go.jp/juutoku/file/jfm1807001.pdf
+急性腎障害（急性尿細管壊死）: https://www.info.pmda.go.jp/juutoku/file/jfm1807002.pdf
+急性膵炎(薬剤性膵炎）: https://www.info.pmda.go.jp/juutoku/file/jfm2104011.pdf
+末梢神経障害: https://www.info.pmda.go.jp/juutoku/file/jfm2203033.pdf
+横紋筋融解症: https://www.info.pmda.go.jp/juutoku/file/jfm2203036.pdf
+無顆粒球症（顆粒球減少症、好中球減少症）: https://www.info.pmda.go.jp/juutoku/file/jfm2203010.pdf
+甲状腺中毒症: https://www.info.pmda.go.jp/juutoku/file/jfm2203019.pdf
+甲状腺機能低下症: https://www.info.pmda.go.jp/juutoku/file/jfm2203020.pdf
+腫瘍崩壊症候群: https://www.info.pmda.go.jp/juutoku/file/jfm1807007.pdf
+薬剤性貧血: https://www.info.pmda.go.jp/juutoku/file/jfm2104018.pdf
+薬物性肝障害: https://www.info.pmda.go.jp/juutoku/file/jfm2104009.pdf
+血栓症（血栓塞栓症、塞栓症、梗塞）: https://www.info.pmda.go.jp/juutoku/file/jfm2104019.pdf
+重度の下痢: https://www.info.pmda.go.jp/juutoku/file/jfm2104010.pdf
+間質性肺炎: https://www.info.pmda.go.jp/juutoku/file/jfm2602006.pdf
+間質性腎炎（尿細管間質性腎炎）: https://www.info.pmda.go.jp/juutoku/file/jfm1807003.pdf
+高血糖: https://www.info.pmda.go.jp/juutoku/file/jfm2312002.pdf
+ 再審査報告書: https://www.pmda.go.jp/drugs_reexam/2025/P20250822002/180188000_22600AMX00768_A100_1.pdf
+ 審査報告書: https://www.pmda.go.jp/drugs/2025/P20250903002/180188000_22600AMX00768_A100_1.pdf
+ 肝細胞癌（最適GL）: https://www.pmda.go.jp/files/000276044.pdf
+ 審査報告書: https://www.pmda.go.jp/drugs/2025/P20250623004/180188000_22600AMX00768_A100_1.pdf
+ 審査報告書: https://www.pmda.go.jp/drugs/2025/P20250108003/180188000_22600AMX00768_A100_1.pdf
+ 審査報告書: https://www.pmda.go.jp/drugs/2024/P20240219002/180188000_22600AMX00768_A100_1.pdf
+ 上皮系皮膚悪性腫瘍（最適GL）: https://www.pmda.go.jp/files/000277946.pdf
+ 審査報告書: https://www.pmda.go.jp/drugs/2023/P20231115003/180188000_22600AMX00768_A100_2.pdf
+ 悪性中皮腫（最適GL）: https://www.pmda.go.jp/files/000277945.pdf
+ 再審査報告書: https://www.pmda.go.jp/drugs_reexam/2023/P20230605001/180188000_22600AMX00768_A100_1.pdf
+ 審査報告書: https://www.pmda.go.jp/drugs/2023/P20230407002/180188000_22600AMX00768_A100_2.pdf
+正誤表: https://www.pmda.go.jp/drugs/2023/P20230407002/180188000_22600AMX00768_A101_1.pdf
+ 審査報告書: https://www.pmda.go.jp/drugs/2022/P20220526001/180188000_22600AMX00768_A100_1.pdf
+ 審査報告書: https://www.pmda.go.jp/drugs/2022/P20220329001/180188000_22600AMX00768_A100_1.pdf.pdf
+ 尿路上皮癌（最適GL）: https://www.pmda.go.jp/files/000272819.pdf
+ 審査報告書: https://www.pmda.go.jp/drugs/2021/P20211213002/180188000_22600AMX00768_A100_1.pdf
+ 原発不明癌（最適GL）: https://www.pmda.go.jp/files/000277944.pdf
+ 審査報告書: https://www.pmda.go.jp/drugs/2021/P20211208001/180188000_22600AMX00768_A100_1.pdf
+ 審査報告書: https://www.pmda.go.jp/drugs/2021/P20210921001/180188000_22600AMX00768_A100_1.pdf
+ 審査報告書: https://www.pmda.go.jp/drugs/2021/P20210819002/180188000_22600AMX00768_A100_1.pdf
+ 審査報告書: https://www.pmda.go.jp/drugs/2021/P20210527002/180188000_22600AMX00768_A100_1.pdf
+ 審査報告書: https://www.pmda.go.jp/drugs/2020/P20201208001/180188000_22600AMX00768_A100_1.pdf
+ 審査報告書: https://www.pmda.go.jp/drugs/2020/P20201002001/180188000_22600AMX00768_A100_1.pdf
+ 審査報告書: https://www.pmda.go.jp/drugs/2020/P20200228001/180188000_22600AMX00768_A100_1.pdf
+ 食道癌（最適GL）: https://www.pmda.go.jp/files/000272817.pdf
+  MSI-High結腸・直腸癌（最適GL）: https://www.pmda.go.jp/files/000276709.pdf
+ 審査報告書: https://www.pmda.go.jp/drugs/2018/P20180914003/180188000_22600AMX00768_A100_1.pdf
+ 審査報告書: https://www.pmda.go.jp/drugs/2018/P20181107001/180188000_22600AMX00768_A100_1.pdf
+ 審査報告書: https://www.pmda.go.jp/drugs/2018/P20181112001/180188000_22600AMX00768_A100_1.pdf
+ 審査報告書: https://www.pmda.go.jp/drugs/2018/P20181115001/180188000_22600AMX00768_A100_1.pdf
+ 悪性胸膜中皮腫（最適GL）: https://www.pmda.go.jp/files/000277943.pdf
+ 審査報告書: https://www.pmda.go.jp/drugs/2018/P20180524001/180188000_22600AMX00768000_A001_1.pdf
+ 審査報告書: https://www.pmda.go.jp/drugs/2017/P20171003001/180188000_22600AMX00768_A100_1.pdf
+ 胃癌（最適GL）: https://www.pmda.go.jp/files/000272814.pdf
+ 審査報告書: https://www.pmda.go.jp/drugs/2017/P20170323001/180188000_22600AMX00768_A100_1.pdf
+ 頭頸部癌（最適GL）: https://www.pmda.go.jp/files/000272811.pdf
+ 審査報告書: https://www.pmda.go.jp/drugs/2016/P20161208002/180188000_22600AMX00768_A100_1.pdf
+ 古典的ホジキンリンパ腫（最適GL）: https://www.pmda.go.jp/files/000277942.pdf
+ 審査報告書: https://www.pmda.go.jp/drugs/2016/P20160831001/180188000_22600AMX00768_A100_1.pdf
+ 腎細胞癌（最適GL）: https://www.pmda.go.jp/files/000272812.pdf
+ 審査報告書: https://www.pmda.go.jp/drugs/2016/P20160224004/180188000_22600AMX00768_A100_1.pdf
+ 悪性黒色腫（最適GL）: https://www.pmda.go.jp/files/000277941.pdf
+ 審査報告書: https://www.pmda.go.jp/drugs/2015/P20151222005/180188000_22600AMX00768_A100_1.pdf
+ 非小細胞肺癌（最適GL）: https://www.pmda.go.jp/files/000272809.pdf
+ 審査報告書: https://www.pmda.go.jp/drugs/2014/P201400114/180188000_22600AMX00768_A100_1.pdf
+ DSU339.pdf: https://dsu-system.jp/dsu/web/viewer.html?file=/dsu/339/339.pdf
+ 2025年09月09日医薬安発0909第１号 別紙16: https://www.info.pmda.go.jp/kaiteip/20250909A001/16.pdf
+ DSU337.pdf: https://dsu-system.jp/dsu/web/viewer.html?file=/dsu/337/337.pdf
+ DSU334.pdf: https://dsu-system.jp/dsu/web/viewer.html?file=/dsu/334/334.pdf
+ DSU333.pdf: https://dsu-system.jp/dsu/web/viewer.html?file=/dsu/333/333.pdf
+ DSU328.pdf: https://dsu-system.jp/dsu/web/viewer.html?file=/dsu/328/328.pdf
+ 2024年07月17日医薬安発0717第1号 別紙4: https://www.info.pmda.go.jp/kaiteip/20240717A001/04.pdf
+[根拠症例]: https://www.info.pmda.go.jp/shourei/pmdsi412/02.pdf
+ DSU324.pdf: https://dsu-system.jp/dsu/web/viewer.html?file=/dsu/324/324.pdf
+ 2023年11月24日医薬薬審発1124第3号、医薬安発1124第1号 別紙1: https://www.info.pmda.go.jp/kaiteip/20231124A001/01.pdf
+ 2023年06月13日薬生安発0613第1号 別紙2: https://www.info.pmda.go.jp/kaiteip/20230613A001/02.pdf
+[根拠症例]: https://www.info.pmda.go.jp/shourei/pmdsi402/01.pdf
+ 2022年10月12日薬生安発1012第1号 別紙4: https://www.info.pmda.go.jp/kaiteip/20221012A001/04.pdf
+ 2022年06月14日薬生安発0614第1号 別紙2: https://www.info.pmda.go.jp/kaiteip/20220614A001/02.pdf
+ 2021年06月21日薬生安発0621第1号 別紙1: https://www.info.pmda.go.jp/kaiteip/20210621A001/01.pdf
+ 2020年11月05日薬生安発1105第1号 別紙2: https://www.info.pmda.go.jp/kaiteip/20201105A001/02.pdf
+[根拠症例]: https://www.info.pmda.go.jp/shourei/pmdsi378/01.pdf
+ 2019年07月09日薬生安発0709第9号 別紙2: https://www.info.pmda.go.jp/kaiteip/20190709A009/02.pdf
+[根拠症例]: https://www.info.pmda.go.jp/shourei/pmdsi365/01.pdf
+ 2019年06月04日薬生安発0604第1号 別紙5: https://www.info.pmda.go.jp/kaiteip/20190604A001/05.pdf
+[根拠症例]: https://www.info.pmda.go.jp/shourei/pmdsi364/02.pdf
+ 2019年05月09日薬生安発0509第3号 別紙10: https://www.info.pmda.go.jp/kaiteip/20190509A003/10.pdf
+[根拠症例]: https://www.info.pmda.go.jp/shourei/pmdsi363/03.pdf
+ 2019年02月12日薬生安発0212第1号 別紙3: https://www.info.pmda.go.jp/kaiteip/20190212A001/03.pdf
+[根拠症例]: https://www.info.pmda.go.jp/shourei/pmdsi361/02.pdf
+ 2017年07月04日薬生安発0704第1号 別紙11: https://www.info.pmda.go.jp/kaiteip/20170704A001/11.pdf
+ 2016年10月18日薬生安発1018第3号 別紙5: https://www.info.pmda.go.jp/kaiteip/20161018A003/05.pdf
+[根拠症例]: https://www.info.pmda.go.jp/shourei/pmdsi338/04.pdf
+ 2015年11月24日薬生安発1124第1号 別紙2: https://www.info.pmda.go.jp/kaiteip/20151124A001/02.pdf
+[根拠症例]: https://www.info.pmda.go.jp/shourei/pmdsi332/01.pdf
+ 2015年09月15日薬食安発0915第1号 別紙5: https://www.info.pmda.go.jp/kaiteip/20150915A001/05.pdf
+[根拠症例]: https://www.info.pmda.go.jp/shourei/pmdsi327/03.pdf
+ ニボルマブ（遺伝子組換え）の「使用上の注意」等の改訂について: https://www.pmda.go.jp/files/000241062.pdf
+ 免疫チェックポイント阻害薬〈ニボルマブ（オプジーボ）、イピリムマブ（ヤーボイ）〉などの治療を受ける患者さんへ: https://www.pmda.go.jp/files/000213147.pdf
+ 免疫チェックポイント阻害薬に関連した劇症1型糖尿病の発症について: https://www.pmda.go.jp/files/000210066.pdf
+ ニボルマブの適正使用に関するステートメント: https://www.pmda.go.jp/files/000209509.pdf
+ ニボルマブ（遺伝子組換え）の「臨床成績」等の改訂について: https://www.pmda.go.jp/files/000273674.pdf

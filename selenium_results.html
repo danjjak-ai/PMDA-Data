@@ -1,0 +1,1400 @@
+<html><head>
+<title>医療用医薬品 検索結果 | 独立行政法人　医薬品医療機器総合機構</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="PMDA,pmda,医薬品,副作用,被害救済,薬,医療,機器,医薬">
+<meta name="description" content="独立行政法人　医薬品医療機器総合機構：医薬品副作用被害救済や稀少病認定薬の研究振興調査などの業務案内。">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="X-UA-TextLayoutMetrics" content="gdi">
+<meta name="robots" content="none">
+
+<link rel="stylesheet" type="text/css" href="/PmdaSearch/files/common/css/import.css">
+<link rel="stylesheet" type="text/css" href="/PmdaSearch/files/common/css/print.css">
+<script type="text/javascript" async="" src="https://www.google-analytics.com/plugins/ua/linkid.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-JFPM0W7LTW&amp;cx=c&amp;gtm=4e63j1h2"></script><script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-MHGKV3"></script><script type="text/javascript" src="/PmdaSearch/files/common/js/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="/PmdaSearch/files/common/js/jquery_cookie.js"></script>
+<script type="text/javascript" src="/PmdaSearch/files/common/js/main.js"></script>
+<script type="text/javascript" src="/PmdaSearch/js/pmdaCommon.js"></script>
+<link rel="stylesheet" type="text/css" href="/PmdaSearch/files/css/search.css">
+
+</head>
+<body onload="FontSizeInit();" style="font-size: 100%;">
+<!-- Google Tag Manager -->
+<noscript><iframe title="GoogleTagManager" src="//www.googletagmanager.com/ns.html?id=GTM-MHGKV3"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MHGKV3');</script>
+<!-- End Google Tag Manager -->
+
+<div id="layoutBody"><!-- 2018-08-15 add 改修No3 新記載要領に対応した添付文書のバージョン比較機能 Start -->
+<style type="text/css">
+hr{
+	border-width: 1px 0px 0px 0px;
+	border-style: 1px;
+	border-color: black;
+	height: 1px;
+	width: 90%;
+}
+.doubles {
+	margin-top: 1em;
+}
+.divCol{
+  display: table-cell ;
+}
+</style>
+<!-- 2018-08-15 add 改修No3 新記載要領に対応した添付文書のバージョン比較機能 End -->
+<!-- ++++ local-js ++++ -->
+<script>
+var userAgent = window.navigator.userAgent.toLowerCase();
+var uag = "0";
+if (userAgent.indexOf('opera') != -1) {
+	uag = "1";
+} else if (userAgent.indexOf('msie') != -1) {
+	uag = "1";
+} else if (userAgent.indexOf('chrome') != -1) {
+	uag = "2";
+} else if (userAgent.indexOf('safari') != -1) {
+	uag = "2";
+} else if (userAgent.indexOf('firefox') != -1) {
+	uag = "2";
+} else {
+	uag = "1";
+}
+
+function FontSizeInit() {
+	// 20140509 Font Size Default Set
+	var fs = window.localStorage.getItem("iyakufsizeValue");
+	if(!fs){
+		window.localStorage.setItem("iyakufsizeValue", 100);
+		fs = window.localStorage.getItem("iyakufsizeValue");
+	}
+
+	document.body.style.fontSize = Math.floor(fs) + '%';
+}
+
+function bigger() {
+	var fs = window.localStorage.getItem("iyakufsizeValue");
+	fs *= 1.2;
+
+//	if(fs <= (100 * 1.2) * 1.2){
+	if(fs <= (93 * 1.2) * 1.2){
+		window.localStorage.setItem("iyakufsizeValue", fs);
+		document.body.style.fontSize = Math.floor(fs) + '%';
+	}
+}
+
+function smaller() {
+	var fs = window.localStorage.getItem("iyakufsizeValue");
+	fs /= 1.2;
+
+//	if(fs >= (100 / 1.2) / 1.2){
+	if(fs >= (93 / 1.2) / 1.2){
+		window.localStorage.setItem("iyakufsizeValue", fs);
+		document.body.style.fontSize = Math.floor(fs) + '%';
+	}
+}
+
+// 項目の表示/非表示
+var resultTableColArr = [
+
+// R03年度Info/統合HPリプレイス START
+  ["0","添付文書"],
+// R03年度Info/統合HPリプレイス END
+
+// R03年度Info/統合HPリプレイス START
+  ["0","患者向医薬品ガイド／ワクチン接種を受ける人へのガイド"],
+// R03年度Info/統合HPリプレイス END
+
+// R03年度Info/統合HPリプレイス START
+  ["0","インタビューフォーム"],
+// R03年度Info/統合HPリプレイス END
+
+// R03年度Info/統合HPリプレイス START
+  ["0","医薬品リスク管理計画（RMP）"],
+// R03年度Info/統合HPリプレイス END
+
+// R03年度Info/統合HPリプレイス START
+  ["0","RMP資材"],
+// R03年度Info/統合HPリプレイス END
+
+// R03年度Info/統合HPリプレイス START
+  ["0","RMP資材（医療従事者向け）"],
+// R03年度Info/統合HPリプレイス END
+
+// R03年度Info/統合HPリプレイス START
+  ["0","RMP資材（患者向け）"],
+// R03年度Info/統合HPリプレイス END
+
+// R03年度Info/統合HPリプレイス START
+  ["0","改訂指示反映履歴および根拠症例"],
+// R03年度Info/統合HPリプレイス END
+
+// R03年度Info/統合HPリプレイス START
+  ["0","審査報告書／再審査報告書／最適使用推進ガイドライン等"],
+// R03年度Info/統合HPリプレイス END
+
+// R03年度Info/統合HPリプレイス START
+  ["0","重篤副作用疾患別対応マニュアル"],
+// R03年度Info/統合HPリプレイス END
+
+// R03年度Info/統合HPリプレイス START
+  ["0","くすりのしおり"],
+// R03年度Info/統合HPリプレイス END
+
+// R03年度Info/統合HPリプレイス START
+  ["0","緊急安全性情報／安全性速報"],
+// R03年度Info/統合HPリプレイス END
+
+// R03年度Info/統合HPリプレイス START
+  ["0","医薬品の適正使用等に関するお知らせ"],
+// R03年度Info/統合HPリプレイス END
+
+// R03年度Info/統合HPリプレイス START
+  ["0","厚生労働省発表資料（医薬品関連）"],
+// R03年度Info/統合HPリプレイス END
+
+// R03年度Info/統合HPリプレイス START
+  ["0","医薬品に関する評価中のリスク等の情報"],
+// R03年度Info/統合HPリプレイス END
+
+// R03年度Info/統合HPリプレイス START
+  ["0","医薬品添付文書改訂相談に基づく添付文書改訂"],
+// R03年度Info/統合HPリプレイス END
+
+// R03年度Info/統合HPリプレイス START
+  ["0","DSU（医薬品安全対策情報）"],
+// R03年度Info/統合HPリプレイス END
+
+// R03年度Info/統合HPリプレイス START
+  ["0","PMDA医療安全情報"],
+// R03年度Info/統合HPリプレイス END
+
+// R03年度Info/統合HPリプレイス START
+  ["0","医療用医薬品問合せ先"]
+// R03年度Info/統合HPリプレイス END
+
+];
+// add 3.00 RMP資材追加対応 end
+var pdfResultTableColArr = resultTableColArr.concat();
+
+// 医療従事者向け、患者向けを表示させないようにする
+for (var i = 0; i < resultTableColArr.length; i++) {
+	if (resultTableColArr[i][1] == "RMP資材（医療従事者向け）") {
+		resultTableColArr.splice(i, 2);
+		break;
+	}
+}
+
+// PDF出力項目の表示/非表示
+//RMP資材を表示させないようにする
+/* for (var i = 0; i < pdfResultTableColArr.length; i++) {
+	if (pdfResultTableColArr[i][1] == "RMP資材") {
+		pdfResultTableColArr.splice(i, 1);
+		break;
+	}
+} */
+//add 3.00 RMP資材追加対応 end
+// add 2.00: 検索結果出力機能追加
+// 常に表示する項目(検索結果出力項目選択用)
+var resultTableDefaultDispColArr = {
+
+  // R03年度Info/統合HPリプレイス START
+  "RD" : [
+  
+    ["1", "種類"], 
+  // R03年度Info/統合HPリプレイス END
+  
+    ["1", "文書の名称"], 
+  // R03年度Info/統合HPリプレイス END
+  
+    ["1", "日付"], 
+  // R03年度Info/統合HPリプレイス END
+  
+    ["1", "一般名"], 
+  // R03年度Info/統合HPリプレイス END
+  
+    ["1", "販売名"], 
+  // R03年度Info/統合HPリプレイス END
+  
+    ["1", "製造販売業者等"]
+  // R03年度Info/統合HPリプレイス END
+  
+  ], 
+
+  // R03年度Info/統合HPリプレイス START
+  "BOOK" : [
+  
+    ["1", "一般名"], 
+  // R03年度Info/統合HPリプレイス END
+  
+    ["1", "販売名"], 
+  // R03年度Info/統合HPリプレイス END
+  
+    ["1", "製造販売業者等"]
+  // R03年度Info/統合HPリプレイス END
+  
+  ]
+
+};
+
+//表示している項目にフラグをつける
+$(function () {
+	var dispColumnsList = [
+		
+			// R03年度Info/統合HPリプレイス START
+			"1", 
+			// R03年度Info/統合HPリプレイス END
+		
+			// R03年度Info/統合HPリプレイス START
+			"2", 
+			// R03年度Info/統合HPリプレイス END
+		
+			// R03年度Info/統合HPリプレイス START
+			"3", 
+			// R03年度Info/統合HPリプレイス END
+		
+			// R03年度Info/統合HPリプレイス START
+			"23", 
+			// R03年度Info/統合HPリプレイス END
+		
+			// R03年度Info/統合HPリプレイス START
+			"25", 
+			// R03年度Info/統合HPリプレイス END
+		
+			// R03年度Info/統合HPリプレイス START
+			"", 
+			// R03年度Info/統合HPリプレイス END
+		
+			// R03年度Info/統合HPリプレイス START
+			"", 
+			// R03年度Info/統合HPリプレイス END
+		
+			// R03年度Info/統合HPリプレイス START
+			"4", 
+			// R03年度Info/統合HPリプレイス END
+		
+			// R03年度Info/統合HPリプレイス START
+			"11", 
+			// R03年度Info/統合HPリプレイス END
+		
+			// R03年度Info/統合HPリプレイス START
+			"", 
+			// R03年度Info/統合HPリプレイス END
+		
+			// R03年度Info/統合HPリプレイス START
+			"", 
+			// R03年度Info/統合HPリプレイス END
+		
+			// R03年度Info/統合HPリプレイス START
+			"", 
+			// R03年度Info/統合HPリプレイス END
+		
+			// R03年度Info/統合HPリプレイス START
+			"", 
+			// R03年度Info/統合HPリプレイス END
+		
+			// R03年度Info/統合HPリプレイス START
+			"", 
+			// R03年度Info/統合HPリプレイス END
+		
+			// R03年度Info/統合HPリプレイス START
+			"", 
+			// R03年度Info/統合HPリプレイス END
+		
+			// R03年度Info/統合HPリプレイス START
+			"", 
+			// R03年度Info/統合HPリプレイス END
+		
+			// R03年度Info/統合HPリプレイス START
+			"", 
+			// R03年度Info/統合HPリプレイス END
+		
+			// R03年度Info/統合HPリプレイス START
+			"", 
+			// R03年度Info/統合HPリプレイス END
+		
+			// R03年度Info/統合HPリプレイス START
+			""
+			// R03年度Info/統合HPリプレイス END
+		
+	];
+	// add 3.00 RMP資材追加対応
+	var pdfDispColumnsList = dispColumnsList.concat();
+
+	dispColumnsList.splice(5, 2);
+
+	$(dispColumnsList).each(function(i, v){
+		resultTableColArr[i][0] = (v) ? '1': '0';
+	});
+
+	if (pdfResultTableColArr[4][0] == "1") {
+		pdfDispColumnsList[5] = "26";
+		pdfDispColumnsList[6] = "27";
+	} else {
+		pdfDispColumnsList[5] = "";
+		pdfDispColumnsList[6] = "";
+	}
+
+	$(pdfDispColumnsList).each(function(i, v){
+		pdfResultTableColArr[i][0] = (v) ? '1': '0';
+	});
+
+	// トグル
+	$(document).on('click', '.toggles', function(){
+		 $(this).next().toggle();
+		 $(this).toggle();
+	});
+	$(document).on('click', '.togglec', function(){
+		  $(this).parent().prev().toggle();
+		  $(this).parent().toggle();
+	});
+});
+
+// ページング処理
+function changePg(pages) {
+
+	popOldVersionClose();
+
+	$.ajax({
+		// R03年度Info/統合HPリプレイス START
+		url: '/PmdaSearch/iyakuSearch/PageChangeRequest/' + pages,
+		// R03年度Info/統合HPリプレイス END
+		// mod 2.01: POSTに変更
+//		type: 'GET',
+		type: 'POST',
+		// add 2.01: Form情報を送信
+		data: $('form').serialize(),
+		dataType: 'json',
+		cache: false, //ブラウザにキャッシュさせません。
+		error: function(err){
+			alert("jsonの読み込みに失敗しました");
+		},
+		success: function(json){
+			//alert("jsonの読み込みが完了しました");
+			// mod 2.00: ページリンクをページ上部だけでなくページ下部にも追加
+// 			$("#PageNavi").html(json.PageNavi).html()
+			$(".PageNavi").each(function(i) {
+				$(this).html(json.PageNavi).html();
+			});
+			$("#ResultList").html(json.ResultList).html();
+
+			// add 2.01: ページ情報を更新
+			document.getElementById("pages").value = pages;
+		}
+	  });
+}
+
+var chnBtnObj_y;
+var tblLnkObj_y;
+var svScrollTop = 0;
+var svTblSclTop = 0;
+
+//WINDOWスクロール発生時の処理
+window.onscroll = function()
+{
+
+	if(uag == "1"){
+		scrollTop = document.documentElement.scrollTop;  // IE、Opera
+	} else {
+		scrollTop = document.body.scrollTop;  // Chrome、Safari、Firefox
+	}
+	var calcTop = scrollTop - svScrollTop;
+
+	svScrollTop = scrollTop;
+
+//	pageScroll(calcTop);	// 表示項目選択ポップアップのスクロール移動制御をコール
+	divScroll(calcTop);	// 過去版ポップアップのスクロール移動制御
+
+
+}
+
+//WINDOW内要素(DIV)スクロール発生時の処理
+function elmScrool(scElm) {
+
+	var scrollTop  = scElm.scrollTop;
+	var calcTop = scrollTop - svTblSclTop;
+
+	svTblSclTop = scrollTop;
+
+//	pageScroll(calcTop);	// 表示項目選択ポップアップのスクロール移動制御をコール
+	divScroll(calcTop);	// 過去版ポップアップのスクロール移動制御
+}
+
+//表示項目選択ポップアップのスクロール移動制御
+function pageScroll(scVal) {
+
+	var popObj  =  document.getElementById("popDiv");
+	var popTarget  = popObj.style;
+
+	if(popObj.innerHTML.length != 0){
+
+		var targTopVal = popTarget.top.replace("px", "");
+		targTopVal = targTopVal - scVal;
+
+		popTarget.top = targTopVal + "px";
+
+	}
+
+}
+
+
+// 過去版ポップアップのスクロール移動制御
+function divScroll(scVal) {
+
+	var popObj =  document.getElementById("popDiv2");
+	var popTarget = popObj.style;
+
+	if(popObj.innerHTML.length != 0){
+
+		var targTopVal = popTarget.top.replace("px", "");
+
+		targTopVal = targTopVal - scVal;
+
+		popTarget.top = targTopVal + "px";
+
+	}
+
+}
+
+var chk_pdf = "0";
+var chk_xml = "0";
+//2018-08-15 add 改修No3 新記載要領に対応した添付文書のバージョン比較機能 Start
+var chk_yoshiki = "";
+//2018-08-15 add 改修No3 新記載要領に対応した添付文書のバージョン比較機能 End
+
+//過去版ポップアップの表示
+function popOldVersion(event, service, p1, p2, p3, minVer) {
+
+	var lnkStrPDF  = "";
+	var lnkStrHTML = p2 + "_" + p3 + '_';
+	var temp_msg = "";
+	var oldCnt = 0;
+	//2018-08-15 add 改修No3 新記載要領に対応した添付文書のバージョン比較機能 Start
+	var tableOLD = "";
+	var OLDVer = "";
+	var tableNew = "";
+	var NewVer = "";
+	var tableHdr = "";
+	var genyoshiki = "SGML";
+	//2018-08-15 add 改修No3 新記載要領に対応した添付文書のバージョン比較機能 End
+	//2018-08-15 mod 改修No3 新記載要領に対応した添付文書のバージョン比較機能 Start
+//	var msg = "<div style=\"background-color: #d0f0f0; padding: 15px; border-style: solid; border-width: 1px; border-color: #404040;\">\n";
+//	msg += "<table>\n";
+	//2018-08-15 mod 改修No3 新記載要領に対応した添付文書のバージョン比較機能 End
+
+	for(var j = p1; j >= minVer; j--) {
+		var v1 = ("000" + j).slice(-2);
+		var v2 = v1;
+
+		if(j == p1){
+			v2 = v1 + "*";
+			checkOldVer(p2, p3, v1, service, "CUR");
+			lnkStrPDF  = "/" + service + "/iyakuDetail/ResultDataSetPDF/" + p2 + "_" + p3 + "_";
+		}
+		if(j != p1){
+			v2 = v1 + " ";
+			checkOldVer(p2, p3, v1, service, "OLD");
+			lnkStrPDF  = "/" + service + "/iyakuDetail/ResultDataSetOldPDF/" + p2 + "_" + p3 + "_";
+		}
+		//2018-08-15 mod 改修No3 新記載要領に対応した添付文書のバージョン比較機能 Start
+//		if(chk_pdf == "1" && chk_xml == "1"){
+////			temp_msg += "<tr><td>Ver." + j + "&nbsp;&nbsp;<a href=\"" + lnkStrPDF + v1 + "\" target='_blank'>PDF</a> / <a href='javascript:void(0)' onclick='detailDisp(\"" + service + "\", \"" + lnkStrHTML + v1 + "\");' " + " target='_blank'>HTML</a></td></tr>\n";
+//			temp_msg += "<tr><td>Ver." + v2 + "&nbsp;&nbsp;<a href='javascript:void(0);' onclick='javascript:detailDispPDF(\"" + lnkStrPDF + v1 + "\"); return false;'" + ">PDF</a> / <a href='javascript:void(0);' onclick='javascript:detailDisp(\"" + service + "\", \"" + lnkStrHTML + v1 + "\"); return false;' " + ">HTML</a></td></tr>\n";
+//			oldCnt++;
+//		} else if(chk_pdf == "1" && chk_xml == "0"){
+////			temp_msg += "<tr><td>Ver." + j + "&nbsp;&nbsp;<a href=\"" + lnkStrPDF + v1 + "\" target='_blank'>PDF</a> / HTML</td></tr>\n";
+//			temp_msg += "<tr><td>Ver." + v2 + "&nbsp;&nbsp;<a href='javascript:void(0);' onclick='javascript:detailDispPDF(\"" + lnkStrPDF + v1 + "\");'" + ">PDF</a> / HTML</td></tr>\n";
+//			oldCnt++;
+//		} else if(chk_pdf == "0" && chk_xml == "1") {
+//			temp_msg += "<tr><td>Ver." + v2 + "&nbsp;&nbsp;PDF&nbsp;/&nbsp;<a href='javascript:void(0);' onclick='javascript:detailDisp(\"" + service + "\", \"" + lnkStrHTML + v1 + "\");' " + ">HTML</a></td></tr>\n";
+//			oldCnt++;
+//		} else {
+//			temp_msg += "<tr><td>Ver." + v2 + "&nbsp;&nbsp;PDF&nbsp;/&nbsp;HTML</td></tr>\n";
+//			oldCnt++;
+//		}
+		if(chk_yoshiki != "noTbook") {
+			genyoshiki = chk_yoshiki;
+		}
+		if(genyoshiki == "SGML"){
+			if( chk_pdf == "1" && chk_xml == "1" ){
+				OLDVer +="<tr><td>Ver." + v2 + "&nbsp;&nbsp;<a href='javascript:void(0);' onclick='javascript:detailDispPDF(\"" + lnkStrPDF + v1 + "\"); return false;'" + ">PDF</a> / <a href='javascript:void(0);' onclick='javascript:detailDisp(\"" + service + "\", \"" + lnkStrHTML + v1 + "\"); return false;' " + ">HTML</a></td></tr>\n";
+
+			} else if( chk_pdf == "1" && chk_xml == "0" ){
+				OLDVer += "<tr><td>Ver." + v2 + "&nbsp;&nbsp;<a href='javascript:void(0);' onclick='javascript:detailDispPDF(\"" + lnkStrPDF + v1 + "\");'" + ">PDF</a> / HTML</td></tr>\n";
+				oldCnt++;
+			} else if( chk_pdf == "0" && chk_xml == "1" ) {
+				OLDVer += "<tr><td>Ver." + v2 + "&nbsp;&nbsp;PDF&nbsp;/&nbsp;<a href='javascript:void(0);' onclick='javascript:detailDisp(\"" + service + "\", \"" + lnkStrHTML + v1 + "\");' " + ">HTML</a></td></tr>\n";
+			} else {
+				OLDVer += "<tr><td>Ver." + v2 + "&nbsp;&nbsp;PDF&nbsp;/&nbsp;HTML</td></tr>\n";
+			}
+			oldCnt++;
+		}
+		if(genyoshiki == "XML"){
+			if( chk_pdf == "1" && chk_xml == "1" ){
+				NewVer +="<tr><td>Ver." + v2 + "&nbsp;&nbsp;<a href='javascript:void(0);' onclick='javascript:detailDispPDF(\"" + lnkStrPDF + v1 + "\"); return false;'" + ">PDF</a> / <a href='javascript:void(0);' onclick='javascript:detailDisp(\"" + service + "\", \"" + lnkStrHTML + v1 + "\"); return false;' " + ">HTML</a></td></tr>\n";
+			} else if( chk_pdf == "1" && chk_xml == "0" ){
+				NewVer += "<tr><td>Ver." + v2 + "&nbsp;&nbsp;<a href='javascript:void(0);' onclick='javascript:detailDispPDF(\"" + lnkStrPDF + v1 + "\");'" + ">PDF</a> / HTML</td></tr>\n";
+
+			} else if( chk_pdf == "0" && chk_xml == "1" ) {
+				NewVer += "<tr><td>Ver." + v2 + "&nbsp;&nbsp;PDF&nbsp;/&nbsp;<a href='javascript:void(0);' onclick='javascript:detailDisp(\"" + service + "\", \"" + lnkStrHTML + v1 + "\");' " + ">HTML</a></td></tr>\n";
+			} else {
+				NewVer += "<tr><td>Ver." + v2 + "&nbsp;&nbsp;PDF&nbsp;/&nbsp;HTML</td></tr>\n";
+			}
+			oldCnt++;
+		}
+		//2018-08-15 mod 改修No3 新記載要領に対応した添付文書のバージョン比較機能 End
+		chk_pdf = "0";
+		chk_xml = "0";
+		//2018-08-15 add 改修No3 新記載要領に対応した添付文書のバージョン比較機能 Start
+		chk_yoshiki = "";
+		//2018-08-15 add 改修No3 新記載要領に対応した添付文書のバージョン比較機能 End
+	}
+	//2018-08-15 mod 改修No3 新記載要領に対応した添付文書のバージョン比較機能 Start
+	var msg = "<div style=\"background-color: #d0f0f0; padding: 0px; border-style: solid; border-width: 1px; border-color: #404040;\">\n";
+
+	tableHdr +="<div>\n";
+	tableHdr +="<div class=\"divCol\" style=\"width: 12em;  padding-top: 1em;\">\n";
+	tableHdr +="<table style=\"width: 100%;\">\n";
+	tableHdr +="<thead>\n";
+	tableHdr +="<tr><th style=\"border: 0;\">旧様式</th></tr>\n";
+	tableHdr +="</thead>\n";
+	tableHdr +="</table>\n";
+	tableHdr +="</div>\n";
+	tableHdr +="<div class=\"divCol\" style=\"width: 12em;\">\n";
+	tableHdr +="<table style=\"width: 100%;\">\n";
+	tableHdr +="<thead>\n";
+	tableHdr +="<tr><th style=\"border: 0;\">新様式</th></tr>\n";
+	tableHdr +="</thead>\n";
+	tableHdr +="</table>\n";
+	tableHdr +="</div>\n";
+	tableHdr +="</div>\n";
+
+	tableOLD +="<div style=\"height: 183px;overflow-y:  scroll;border-top: 1px solid black;border-bottom:  1px solid black;\">\n";
+ 	tableOLD +="<div class=\"divCol\" style=\"height: 11.44em;border-right: 1px solid black; width: 12em;\">\n";
+ 	tableOLD +="<table>\n";
+ 	tableOLD +="<tbody>\n";
+
+ 	tableOLD += OLDVer;
+
+ 	tableOLD +="</tbody>\n";
+ 	tableOLD +="</table>\n";
+ 	tableOLD +="</div>\n";
+
+ 	tableNew +="<div class=\"divCol\" style=\"height: 11.44em; width: 12em;\">\n";
+ 	tableNew +="<table>\n";
+ 	tableNew +="<tbody>\n";
+
+ 	tableNew += NewVer;
+
+ 	tableNew +="</tbody>\n";
+ 	tableNew +="</table>\n";
+ 	tableNew +="</div>\n";
+ 	tableNew +="</div>\n";
+
+ 	temp_msg = tableHdr + tableOLD + tableNew ;
+
+ 	temp_msg +="<div style=\"padding: 8px;\">\n";
+ 	temp_msg +="<input type=\"button\" onclick=\"popOldVersionClose();\" value=\"閉じる\">\n";
+ 	temp_msg +="</div>\n";
+	//2018-08-15 add 改修No3 新記載要領に対応した添付文書のバージョン比較機能 End
+	if(temp_msg != ""){
+		msg += temp_msg;
+	}
+	//2018-08-15 mod 改修No3 新記載要領に対応した添付文書のバージョン比較機能 Start
+//	msg += "<tr><td align=\"center\"><input type=\"button\" onclick=\"popOldVersionClose();\" value=\"閉じる\"></td></tr>\n";
+//	msg += "</table>";
+	//2018-08-15 mod 改修No3 新記載要領に対応した添付文書のバージョン比較機能 End
+	msg += "</div >";
+
+	var userAgent = window.navigator.userAgent.toLowerCase();
+	var uag = "0";
+	if (userAgent.indexOf('opera') != -1) {
+		uag = "1";
+	} else if (userAgent.indexOf('msie') != -1) {
+		uag = "1";
+	} else if (userAgent.indexOf('chrome') != -1) {
+		uag = "2";
+	} else if (userAgent.indexOf('safari') != -1) {
+		uag = "2";
+	} else if (userAgent.indexOf('firefox') != -1) {
+		uag = "2";
+	} else if (userAgent.indexOf('gecko') != -1) {
+		uag = "1";
+	} else {
+		alert("other");
+	}
+
+	var popTarget = document.getElementById("popDiv2").style;
+	var o1 = getMousePosition(event);
+	tblLnkObj_y = o1.sy;
+
+	if(uag == "1"){
+		o1.sy = event.clientY;
+	}
+
+	if(popDiv2.innerHTML != ""){
+		popOldVersionClose();
+	}
+
+	if(temp_msg != ""){
+		popTarget.left = (o1.sx) + "px";
+//2018-11-08 mod 改修No3 バージョン比較ダイアログの上部表示位置 Start
+//		if((oldCnt - 1) == 0){
+//			popTarget.top = (o1.sy - 30) + "px";
+//		} else {
+			popTarget.top = (o1.sy - 27 - (18 * 10)) + "px";
+//		}
+//2018-11-08 mod 改修No3 バージョン比較ダイアログの上部表示位置 End
+		popDiv2.innerHTML = msg;
+	}
+
+}
+
+//過去版ポップアップのクローズ
+function popOldVersionClose() {
+	popDiv2.innerHTML = "";
+}
+
+//過去版ファイルの存在を確認する
+function checkOldVer(code, bkno, ver, service, cflg){
+	var url = "/" + service + "/iyakuDetail/FileExsist/" + code + "_" + bkno + "_" + ver + "_" + cflg;
+
+	$.ajax({
+		url: url,
+		type: 'GET',
+		async:false,
+		dataType: 'json',
+		cache: false, //ブラウザにキャッシュさせません。
+		error: function(err){
+			alert("jsonの読み込みに失敗しました");
+		},
+		success: function(json){
+			//alert("jsonの読み込みが完了しました ");
+			chk_pdf = json.pdfExsist;
+			chk_xml = json.xmlExsist;
+			//2018-08-15 add 改修No3 新記載要領に対応した添付文書のバージョン比較機能 Start
+		 	chk_yoshiki = json.yoshikiKbn;
+        	//2018-08-15 add 改修No3 新記載要領に対応した添付文書のバージョン比較機能 End
+		}
+	  });
+
+}
+
+
+//表示項目選択ポップアップの表示
+function displaySelect(event) {
+
+	popOldVersionClose();
+
+	var msg = "<div style=\"background-color: #d0f0f0; padding: 15px; border-style: solid; border-width: 1px; border-color: #404040;\">\n";
+	msg += "<div class=\"popScrollInr\"><table>\n";
+	for(var j = 0; j < resultTableColArr.length; j++) {
+		var v1 = ("000" + j).slice(-3);
+		var checkStr = (resultTableColArr[j][0] == "1") ? " checked=\"checked\"" : "";
+		msg += "<tr><td><input type=\"checkbox\" id=\"dispCtrl" + v1 + "\"" + checkStr + ">" + resultTableColArr[j][1] + "</td></tr>\n";
+	}
+
+	msg += "</table></div>";
+	msg += "<input onclick=\"JavaScript:popClose();\" type=\"button\" value=\"閉じる\">&nbsp;&nbsp;&nbsp;";
+	msg += "<input onclick=\"JavaScript:dispCtrlCheck(1);\" type=\"button\" value=\"全チェック\">&nbsp;&nbsp;&nbsp;";
+	msg += "<input onclick=\"JavaScript:dispCtrlCheck(0);\" type=\"button\" value=\"全クリア\">";
+	msg += "</div >";
+
+	var o1 = getMousePosition(event);
+	chnBtnObj_y = o1.y;
+
+	var popObj =  document.getElementById("popDiv");
+	var popTarget = popObj.style;
+
+	popTarget.left = "5px";
+	popTarget.top = "5px";
+
+	popObj.innerHTML = msg;
+
+}
+
+//表示項目選択ポップアップの全選択・全解除の制御
+function dispCtrlCheck(p1) {
+
+	// mod 2.00: 検索結果出力対応により、チェックボックスの指定方法を変更
+//	for(var j = 0; j<resultTableColArr.length; j++) {
+//		var v1 = "dispCtrl" + ("000" + j).slice(-3);
+//		var obj1 = document.getElementById(v1);
+//		obj1.checked = (p1 == 1);
+//	}
+	$('#popDiv input[type="checkbox"]').prop('checked', p1 == 1).change();
+}
+
+//add 2.00: くすりのしおり マウスオーバーで全文表示対応
+//ツールチップ表示
+function tooltip(event, str) {
+
+	if (!str) {
+		return false;
+	}
+
+	popOldVersionClose();
+
+	var userAgent = window.navigator.userAgent.toLowerCase();
+	var uag = "0";
+	if (userAgent.indexOf('opera') != -1) {
+		uag = "1";
+	} else if (userAgent.indexOf('msie') != -1) {
+		uag = "1";
+	} else if (userAgent.indexOf('chrome') != -1) {
+		uag = "2";
+	} else if (userAgent.indexOf('safari') != -1) {
+		uag = "2";
+	} else if (userAgent.indexOf('firefox') != -1) {
+		uag = "2";
+	} else if (userAgent.indexOf('gecko') != -1) {
+		uag = "1";
+	} else {
+		alert("other");
+	}
+
+	// 過去版ポップアップの領域を流用
+	var popTarget = document.getElementById("popDiv2").style;
+	var o1 = getMousePosition(event);
+
+	if(uag == "1") {
+		o1.sy = event.clientY;
+	}
+
+	popDiv2.innerHTML = "<div style=\"background-color: #d0f0f0; padding: 15px; border-style: solid; border-width: 1px; border-color: #404040;\">\n" +
+			str + "</div>";
+	popTarget.left = (o1.x - popDiv2.clientWidth - 5) + "px";
+	popTarget.top = (o1.y - popDiv2.clientHeight - 5) + "px";
+}
+
+//ツールチップのクローズ
+function tooltipClose() {
+	// 過去版ポップアップの領域を流用しているため、過去版ポップアップのクローズ処理を実行
+	popOldVersionClose();
+}
+
+//表示項目選択ポップアップのクローズ(選択項目で再表示を行う)
+function popClose() {
+
+	// チェックされた値で配列を書き換え、パラメータを作成
+	var clmAry = [];
+	for(var j = 0; j<resultTableColArr.length; j++) {
+		var v1 = "dispCtrl" + ("000" + j).slice(-3);
+		var obj1 = document.getElementById(v1);
+		resultTableColArr[j][0] = (obj1.checked) ? "1" : "0";
+		if (obj1.checked) {
+			clmAry.push(j);
+		}
+	}
+	popDiv.innerHTML = "";
+
+	if(clmAry == null || clmAry.length == 0){
+		clmAry.push(-1);
+	}
+
+	colDisp(clmAry);
+}
+
+// 列の表示非表示を制御する
+function colDisp(cAry){
+	$.ajax({
+		// R03年度Info/統合HPリプレイス START
+		url: '/PmdaSearch/iyakuSearch/CulumChangeRequest/'+cAry,
+		// R03年度Info/統合HPリプレイス END
+		// mod 2.01: POSTに変更
+//		type: 'GET',
+		type: 'POST',
+		// add 2.01: Form情報を送信
+		data: $('form').serialize(),
+		dataType: 'json',
+		cache: false, //ブラウザにキャッシュさせません。
+		error: function(err){
+			alert("jsonの読み込みに失敗しました");
+		},
+		success: function(json){
+			//alert("jsonの読み込みが完了しました");
+			// mod 2.00: ページリンクをページ上部だけでなくページ下部にも追加
+// 			$("#PageNavi").html(json.PageNavi).html()
+			$(".PageNavi").each(function(i) {
+				$(this).html(json.PageNavi).html();
+			});
+			$("#ResultList").html(json.ResultList).html();
+
+			// add 2.01: 表示する文書を更新
+			document.getElementById("changeColumnsList").value = cAry;
+			for (var j = 0; j < resultTableColArr.length; j++) {
+				document.getElementById("dispColumns" + j).value = "";
+			}
+			for (var k = 0; k < cAry.length; k++) {
+				document.getElementById("dispColumns" + cAry[k]).value = cAry[k];
+			}
+		}
+	  });
+
+}
+
+// add 2.00: 検索結果画面で表示件数変更対応
+// 表示件数を変更する
+function listRowsChange(listRows){
+	$.ajax({
+		// R03年度Info/統合HPリプレイス START
+		url: '/PmdaSearch/iyakuSearch/listRowsChangeRequest/' + listRows,
+		// R03年度Info/統合HPリプレイス END
+		// mod 2.01: POSTに変更
+//		type: 'GET',
+		type: 'POST',
+		// add 2.01: Form情報を送信
+		data: $('form').serialize(),
+		dataType: 'json',
+		cache: false, //ブラウザにキャッシュさせません。
+		error: function(err){
+			alert("jsonの読み込みに失敗しました");
+		},
+		success: function(json){
+			//alert("jsonの読み込みが完了しました");
+			// mod 2.00: ページリンクをページ上部だけでなくページ下部にも追加
+// 			$("#PageNavi").html(json.PageNavi).html()
+			$(".PageNavi").each(function(i) {
+				$(this).html(json.PageNavi).html();
+			});
+			$("#ResultList").html(json.ResultList).html();
+
+			// add 2.01: ページ情報の初期化及び表示件数の更新
+			document.getElementById("pages").value = 1;
+			document.getElementById("listRows").value = listRows;
+		}
+	  });
+
+}
+
+var dWin = null;
+
+//詳細(HTML)ページを別ウィンドウで表示する
+function detailDisp(service, fname){
+
+
+	var url = "/" + service + "/iyakuDetail/" + fname;
+
+	popOldVersionClose();
+
+//	if(dWin != null)	dWin.close();
+
+	dWin = window.open(url, "");
+//	dWin = window.open(url, "_blank");
+	dWin.active();
+
+
+}
+
+//添付文書(PDF)ページを別ウィンドウで表示する
+function detailDispPDF(linkStr){
+
+
+	var url = linkStr;
+
+	popOldVersionClose();
+
+//	if(dWin != null)	dWin.close();
+
+	dWin = window.open(url, "");
+//	dWin = window.open(url, "_blank");
+	dWin.active();
+
+}
+
+// 検索種別を Action より取得
+// R03年度Info/統合HPリプレイス START
+var listCategory = 'BOOK';
+// R03年度Info/統合HPリプレイス END
+
+// add 2.00: 検索結果出力処理追加
+/**
+ * 出力項目選択ポップアップの表示
+ *
+ * @param exportType 出力形式
+ */
+function exportSelect(event, exportType) {
+
+	if (!exportType) {
+		alert('出力形式が指定されていません。');
+		return false;
+	}
+
+	popOldVersionClose();
+
+	// ポップアップ生成
+	var msg = "<div style=\"background-color: #d0f0f0; padding: 15px; border-style: solid; border-width: 1px; border-color: #404040;\">\n";
+	msg += "<p class=\"mb_10\">" + "PDF出力する項目を選択してください。" + "</p>\n";
+	msg += "<p class=\"mb_10\" id=\"exportWarning\" style=\"color: #FF0000; font-weight: bold; text-decoration: underline; height: 1em;\">WARNING</p>"
+	msg += "<div class=\"popScrollInr\"><table>\n";
+
+	var wkResultTableColArr = (listCategory === 'BOOK') ?
+			//rep 3.00
+			//resultTableDefaultDispColArr[listCategory].concat(resultTableColArr) :
+			resultTableDefaultDispColArr[listCategory].concat(pdfResultTableColArr) :
+			resultTableDefaultDispColArr[listCategory];
+	var checkCnt = 0;
+	for(var j = 0; j < wkResultTableColArr.length; j++) {
+		var checkStr = "";
+		if (listCategory == 'BOOK' && j == 7) {
+		}else if (listCategory == 'BOOK' && (j == 8 || j == 9)) {
+			if (wkResultTableColArr[7][0] == "1") {
+				checkStr = " checked=\"checked\"";
+				checkCnt++;
+			}
+			msg += "<tr><td><input type=\"checkbox\" name=\"exportCtrl[" + j + "]\"" + checkStr + ">" + wkResultTableColArr[j][1] + "</td></tr>\n";
+		} else {
+			if (wkResultTableColArr[j][0] == "1") {
+				checkStr = " checked=\"checked\"";
+				checkCnt++;
+			}
+			msg += "<tr><td><input type=\"checkbox\" name=\"exportCtrl[" + j + "]\"" + checkStr + ">" + wkResultTableColArr[j][1] + "</td></tr>\n";
+		}
+	}
+	var exportWarning = document.getElementById('exportWarning');
+	var disabledStr = "";
+	if (checkCnt > 6) {
+		msg = msg.replace("WARNING", "※選択項目は6項目以内としてください。");
+		disabledStr = " disabled=\"disabled\"";
+	}
+	msg = msg.replace("WARNING", "");
+
+	msg += "</table></div>";
+	msg += "<input onclick=\"JavaScript:document.getElementById('popDiv').innerHTML='';\" type=\"button\" value=\"閉じる\">&nbsp;&nbsp;&nbsp;";
+	msg += "<input onclick=\"JavaScript:dispCtrlCheck(0);\" type=\"button\" value=\"全クリア\">&nbsp;&nbsp;&nbsp;";
+	msg += "<input name=\"export\" type=\"button\" value=\"出力する\" " + disabledStr + ">";
+	msg += "</div >";
+
+	var o1 = getMousePosition(event);
+	chnBtnObj_y = o1.y;
+
+	// ポップアップ
+	var popObj =  document.getElementById('popDiv');
+	var popTarget = popObj.style;
+	popObj.innerHTML = msg;
+	// 画面中央に出す
+	// innerWidth(Heigth)は IE 8 非対応
+	var pageWidth = window.innerWidth ? window.innerWidth : $(window).width();
+	var pageHeight = window.innerHeight ? window.innerHeight : $(window).height();
+	popTarget.left = (pageWidth / 2 - popObj.offsetWidth / 2) + 'px';
+	popTarget.top = (pageHeight / 2 - popObj.offsetHeight / 2) + 'px';
+
+	// チェックボックスのイベント
+	$('input[name^="exportCtrl"]').on('change', function() {
+		var checkCnt = $('input[name^="exportCtrl"]:checked').length;
+		// 7項目以上、1項目未満のチェックで出力させない
+		var exportInvalidFlg = checkCnt > 6 || checkCnt < 1;
+		// エラー文言の表示制御
+		var $exportWarning = $('#exportWarning');
+		$exportWarning.text(exportInvalidFlg ?
+				checkCnt > 6 ? '※選択項目は6項目以内としてください。' :
+					'※項目が選択されていません。' : '');
+		// 出力ボタンの実行制御
+		$('input[name="export"]').prop('disabled', exportInvalidFlg);
+	});
+
+	// 出力ボタンのイベント
+	$('input[name="export"]').on('click', function() {
+		exportSearchResult(exportType);
+	});
+
+	return false;
+}
+
+/**
+ * 検索結果出力
+ *
+ * @param exportType 出力形式
+ */
+function exportSearchResult(exportType) {
+
+	var exportCols = [];
+	if (exportType === 'csv') {
+		// CSV は表示されている項目を全件出力
+		// (関連文書検索時はすべて出力するため、検索結果出力列は空のまま)
+		var wkResultTableColArr = (listCategory === 'BOOK') ?
+				//rep 3.00
+				//resultTableDefaultDispColArr[listCategory].concat(resultTableColArr) :
+				resultTableDefaultDispColArr[listCategory].concat(pdfResultTableColArr) :
+				resultTableDefaultDispColArr[listCategory];
+		$.each(wkResultTableColArr, function(i, v) {
+			if (v[0] == '1') {
+				//rep 3.00
+//				exportCols.push(i);
+				if (i != 7) {
+					exportCols.push(i);
+				}
+			}
+		});
+	} else {
+		// PDF はポップアップで選択されている項目を表示件数分出力
+		$('input[name^="exportCtrl"]').each(function(i, v) {
+			if ($(this).prop('checked')) {
+//				exportCols.push(i);
+				// rep 3.00
+				if (i < 7) {
+					exportCols.push(i);
+				} else {
+					exportCols.push(i + 1);
+				}
+			}
+		});
+		// 選択ポップアップを閉じる
+		document.getElementById('popDiv').innerHTML='';
+	}
+
+ 	// XXX: $.ajax 等ではブラウザによってバイナリファイルを扱う仕組みがない場合があるため、仮想の form にて POST する
+ 	// mod 2.01: 仮想の form にForm情報を追加
+//  	var $tmpForm = $('<form></form>', {
+//  			action: '/PmdaSearch/iyakuSearch/exportSearchResult/' + exportType,
+//  			method: 'POST',
+//  			target:  (exportType === 'csv') ? '_self' : '_blank',
+//  			style: 'display: none;'})
+//  		.append($('<input>', {type: 'text', name: 'searchNameTitle', value: $('#SearchHd strong').text()}))
+//  		.append($('<input>', {type: 'text', name: 'leftSearchName', value: $('#bookSearchTitle').text()}))
+//  		.append($('<input>', {type: 'text', name: 'leftSearchCondition', value: $('#bookSearchCond').text().replace(/\s*\n\s*/g, '')}))
+//  		.append($('<input>', {type: 'text', name: 'rightSearchName', value: $('#rdSearchTitle').text()}))
+//  		.append($('<input>', {type: 'text', name: 'logicalOperators', value: $('#howtoRdSearchSel').text()}))
+//  		.append($('<input>', {type: 'text', name: 'rightSearchCondition', value: $('#rdSearchCond').text().replace(/\s*\n\s*/g, '')}))
+//  		.append($('<input>', {type: 'text', name: 'exportCols', value: exportCols.join(',')}))
+//  		.appendTo('body').submit().remove();
+//  		;
+	var $tmpForm = $('<form></form>', {action: '/PmdaSearch/iyakuSearch/exportSearchResult/' + exportType, method: 'POST', target:  (exportType === 'csv') ? '_self' : '_blank', style: 'display: none;'});
+ 	$tmpForm.append($('<input>', {type: 'text', name: 'searchNameTitle', value: $('#SearchHd strong').text()}));
+ 	$tmpForm.append($('<input>', {type: 'text', name: 'leftSearchName', value: $('#bookSearchTitle').text()}));
+ 	$tmpForm.append($('<input>', {type: 'text', name: 'leftSearchCondition', value: $('#bookSearchCond').text().replace(/\s*\n\s*/g, '')}));
+ 	$tmpForm.append($('<input>', {type: 'text', name: 'rightSearchName', value: $('#rdSearchTitle').text()}));
+ 	$tmpForm.append($('<input>', {type: 'text', name: 'logicalOperators', value: $('#howtoRdSearchSel')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'text', name: 'rightSearchCondition', value: $('#rdSearchCond').text().replace(/\s*\n\s*/g, '')}));
+ 	$tmpForm.append($('<input>', {type: 'text', name: 'exportCols', value: exportCols.join(',')}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'nameWord', value: $('#nameWord')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'iyakuHowtoNameSearchRadioValue', value: $('#iyakuHowtoNameSearchRadioValue')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'howtoMatchRadioValue', value: $('#howtoMatchRadioValue')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'effectValue', value: $('#effectValue')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'infoindicationsorefficacy', value: $('#infoindicationsorefficacy')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'infoindicationsorefficacyHowtoSearch', value: $('#infoindicationsorefficacyHowtoSearch')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'warnings', value: $('#warnings')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'warningsHowtoSearch', value: $('#warningsHowtoSearch')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'contraindicationsAvoidedadministration', value: $('#contraindicationsAvoidedadministration')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'contraindicationsAvoidedadministrationHowtoSearch', value: $('#contraindicationsAvoidedadministrationHowtoSearch')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'contraindicatedcombinationPrecautionsforcombination', value: $('#contraindicatedcombinationPrecautionsforcombination')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'contraindicatedcombinationPrecautionsforcombinationHowtoSearch', value: $('#contraindicatedcombinationPrecautionsforcombinationHowtoSearch')[0].value}));
+ 	for(var j = 0; j<resultTableColArr.length; j++){
+ 		$tmpForm.append($('<input>', {type: 'hidden', name: 'dispColumnsList[' + j + ']', value: $('#dispColumns' + j)[0].value}));
+ 	}
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'changeColumnsList', value: $('#changeColumnsList')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'updateDocFrDt', value: $('#updateDocFrDt')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'updateDocToDt', value: $('#updateDocToDt')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'tglOpFlg', value: $('#tglOpFlg')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'compNameWord', value: $('#compNameWord')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'koumoku1Value', value: $('#koumoku1Value')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'koumoku2Value', value: $('#koumoku2Value')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'koumoku3Value', value: $('#koumoku3Value')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'koumoku1Word', value: $('#koumoku1Word')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'koumoku2Word', value: $('#koumoku2Word')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'koumoku3Word', value: $('#koumoku3Word')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'koumoku1HowtoSearch', value: $('#koumoku1HowtoSearch')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'koumoku2HowtoSearch', value: $('#koumoku2HowtoSearch')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'koumoku3HowtoSearch', value: $('#koumoku3HowtoSearch')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'howtoRdSearchSel', value: $('#howtoRdSearchSel')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'relationDoc1Sel', value: $('#relationDoc1Sel')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'relationDoc2Sel', value: $('#relationDoc2Sel')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'relationDoc3Sel', value: $('#relationDoc3Sel')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'relationDoc1check1', value: $('#relationDoc1check1')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'relationDoc1check2', value: $('#relationDoc1check2')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'relationDoc2check1', value: $('#relationDoc2check1')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'relationDoc2check2', value: $('#relationDoc2check2')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'relationDoc3check1', value: $('#relationDoc3check1')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'relationDoc3check2', value: $('#relationDoc3check2')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'relationDoc1Word', value: $('#relationDoc1Word')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'relationDoc2Word', value: $('#relationDoc2Word')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'relationDoc3Word', value: $('#relationDoc3Word')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'relationDoc1HowtoSearch', value: $('#relationDoc1HowtoSearch')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'relationDoc2HowtoSearch', value: $('#relationDoc2HowtoSearch')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'relationDoc3HowtoSearch', value: $('#relationDoc3HowtoSearch')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'relationDoc1FrDt', value: $('#relationDoc1FrDt')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'relationDoc1ToDt', value: $('#relationDoc1ToDt')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'relationDoc2FrDt', value: $('#relationDoc2FrDt')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'relationDoc2ToDt', value: $('#relationDoc2ToDt')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'relationDoc3FrDt', value: $('#relationDoc3FrDt')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'relationDoc3ToDt', value: $('#relationDoc3ToDt')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'relationDocHowtoSearchBetween12', value: $('#relationDocHowtoSearchBetween12')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'relationDocHowtoSearchBetween23', value: $('#relationDocHowtoSearchBetween23')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'ListRows', value: $('#listRows')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'searchCnt', value: $('#searchCnt')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'totalPages', value: $('#totalPages')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'pages', value: $('#pages')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'listCategory', value: $('#listCategory')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'iyakuKoumokuSelectSwitchRadio', value: $('#iyakuKoumokuSelectSwitchRadio')[0].value}));
+ 	$tmpForm.append($('<input>', {type: 'hidden', name: 'gs1code', value: $('#gs1code')[0].value}));
+ 	$tmpForm.appendTo('body').submit().remove();
+
+	return false;
+}
+
+</script>
+<!-- ++++ /local-js ++++ -->
+
+
+
+
+<div id="ContentWrap" class="SearchResult WrapFontSizeM">
+<noscript><p id="NoScriptWarning">当ウェブサイトを快適にご覧いただくには、ブラウザのJavaScript設定を有効（オン）にしていただく必要がございます。</p></noscript>
+
+
+<div id="HeaderPopArea" class="HTML5_header">
+<div id="HeaderPopAreaInner">
+<a href="/" id="LogoArea" target="_blank">
+<span>Pmda 独立行政法人 医薬品医療機器総合機構</span>
+</a><!--/LogoArea-->
+
+<div id="LinkArea01" class="clearfix">
+<ul>
+
+<li class="mr_00"><a href="javascript:window.close()"><img class="imglink" src="/PmdaSearch/files/common/img/ComHeaderAreaBtnClose.png" alt="画面を閉じる" width="118" height="24"></a></li>
+
+</ul>
+</div><!--/LinkArea01-->
+
+<div id="LinkArea02">
+
+<img class="float_l mr_10" src="/PmdaSearch/files/common/img/ComHeaderAreaTxtSizettl.png" alt="文字サイズの変更" width="29" height="22">
+
+<span id="FontSizeSelect"><a href="javascript:void(0);" id="TextBtnNormal" class="mr_05 Current"><span>標準</span></a>
+<a href="javascript:void(0);" id="TextBtnL" class="mr_05"><span>大</span></a>
+<a href="javascript:void(0);" id="TextBtnLl"><span>特大</span></a></span>
+</div><!--/LinkArea02-->
+</div><!--/HeaderAreaInner-->
+</div><!--/HeaderArea-->
+
+<div id="ContentArea" class="HTML5_section">
+<div id="MainContents" class="clearfix">
+<div id="ContentMainArea" class="ComOneCulumn">
+<div class="PopupArea">
+<div class="PopupInner">
+
+<h1 id="SearchHd">
+<strong>医療用医薬品 情報検索</strong>
+
+<span><a target="searchhelp_iyaku" href="/searchhelp_009.pdf"><img class="imglink" src="/PmdaSearch/files/img/search/SearchBtn10.gif" alt="情報検索機能の使い方" height="36"></a></span>
+
+
+<span class="ExportBtnArea">
+<p>検索結果の出力</p>
+
+<a href="javascript:void(0);" onclick="return exportSearchResult('csv');"><img class="imglink" src="/PmdaSearch/files/img/search/ExportBtn01.gif" alt="CSV出力" height="35"></a>
+<a href="javascript:void(0);" onclick="return exportSelect(event, 'pdf');" target="_blank"><img class="imglink" src="/PmdaSearch/files/img/search/ExportBtn02.gif" alt="PDF出力" height="35"></a>
+
+</span>
+
+</h1>
+
+
+<form id="iyakuSearchForm" action="/PmdaSearch/iyakuSearch" method="POST">
+
+
+
+<!-- add 2.00: 検索条件を表示 -->
+<div class="dispSearchCondArea">
+<h2>検索条件</h2>
+
+<h3 id="bookSearchTitle">医薬品の添付文書等を調べる</h3>
+<span id="bookSearchCond">
+
+  
+  一般名・販売名（医薬品の名称）: オプジーボ（
+  
+  
+    一般名及び販売名
+  
+    
+  
+    
+  
+  、
+  
+    部分一致
+  
+    
+  
+  ）
+  &nbsp;/&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</span>
+
+
+</div><!-- /dispSearchCondArea -->
+
+
+<div onscroll="javascript:elmScrool(this); return false;">
+<div id="SearchWrap02" class="clearfix">
+<h2 class="SearchTit01">検索結果</h2>
+<div class="SearchResultMenu mb_15 first">
+<p class="col23 PageNavi"><strong>検索結果1件／全1ページ</strong><br><br>
+<span>1</span></p>
+<p class="col1"><input value="表示する文書を変更" type="image" src="/PmdaSearch/iyakuSearch/../files/img/search/SearchBtn08.gif" onclick="JavaScript:displaySelect(event); return false;"></p>
+<p>
+<strong>表示件数を選ぶ</strong><br>
+<select name="ListRows" onchange="javascript:listRowsChange($(this).val());" class="SearchSlct">
+<option value="10" selected="selected">10件</option><option value="20">20件</option><option value="30">30件</option><option value="50">50件</option><option value="100">100件</option></select>
+</p>
+</div><!-- / #SearchResultMenu -->
+<!-- 検索結果表示領域  -->
+<table class="SearchResultTable" id="ResultList">
+<tbody><tr>
+	<th rowspan="2" scope="col" '="" style="width:15em" nowrap="">一般名</th>
+	<th rowspan="2" scope="col" '="" style="width:15em" nowrap="">販売名</th>
+	<th rowspan="2" scope="col" '="" style="width:15em" nowrap="">製造販売業者等</th>
+	<th rowspan="2" scope="col" style="width:13em" nowrap="">添付文書</th>
+	<th rowspan="2" scope="col" style="width:12em" nowrap="">患者向医薬品ガイド／<br>ワクチン接種を受ける人<br>へのガイド</th>
+	<th rowspan="2" scope="col" style="width:12em" nowrap="">インタビュー<br>フォーム</th>
+	<th rowspan="2" scope="col" style="width:4em" nowrap="">RMP</th>
+	<th colspan="2" scope="col" style="width:20em" nowrap="">RMP資材</th>
+	<th rowspan="2" scope="col" style="width:13em" nowrap="">改訂指示反映履歴<br>および根拠症例</th>
+	<th rowspan="2" scope="col" style="width:15em" nowrap="">審査報告書／<br>再審査報告書／<br>最適使用推進<br>ガイドライン等</th>
+</tr>
+<tr>
+	<th scope="col" style="width:10em" nowrap="">医療従事者向け</th>
+	<th scope="col" style="width:10em" nowrap="">患者向け</th>
+</tr>
+<tr class="TrColor01">
+<td><div><a target="_blank" href="/PmdaSearch/iyakuDetail/GeneralList/4291427">ニボルマブ（遺伝子組換え）</a></div></td><td><div>オプジーボ点滴静注20mg／オプジーボ点滴静注100mg／オプジーボ点滴静注120mg／オプジーボ点滴静注240mg</div></td><td><div>製造販売／小野薬品工業株式会社</div><div>プロモーション提携／ブリストル・マイヤーズ スクイブ株式会社</div></td><td><div><a target="_blank" href="/PmdaSearch/iyakuDetail/ResultDataSetPDF/180188_4291427A1024_1_72">PDF(2025年09月09日)</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="javascript:void(0);" onclick="javascript:detailDisp(&quot;PmdaSearch&quot;, &quot;180188_4291427A1024_1_72&quot;); return false;">HTML</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="/PmdaSearch/iyakuDetail/ResultDataSetXML/180188_4291427A1024_1_72">XML</a></div></td><td><div class="singles"><a target="_blank" href="https://www.info.pmda.go.jp/downfiles/ph/GUI/180188_4291427A1024_1_00G.pdf">G_オプジーボ点滴静注20mg／オプジーボ点滴静注100mg／オプジーボ点滴静注120mg／オプジーボ点滴静注240mg</a></div></td><td><div class="singles"><a target="_blank" href="https://www.info.pmda.go.jp/go/interview/1/180188_4291427A1024_1_047_1F.pdf">F1_オプジーボ点滴静注20mg／オプジーボ点滴静注100mg／オプジーボ点滴静注120mg／オプジーボ点滴静注240mg</a></div></td><td><div class="tcenter"><a target="_blank" href="https://www.pmda.go.jp/RMP/www/180188/a3a75261-9c19-4494-a9ff-cb2cf22dfa5b/180188_4291427A1024_039RMP.pdf">○</a></div></td><td><div><a target="_blank" href="https://www.pmda.go.jp/RMP/www/180188/a3a75261-9c19-4494-a9ff-cb2cf22dfa5b/180188_4291427A1024_10_024RMPm.pdf" style="float:none">適正使用ガイド（併用療法）</a></div><div><a target="_blank" href="https://www.pmda.go.jp/RMP/www/180188/a3a75261-9c19-4494-a9ff-cb2cf22dfa5b/180188_4291427A1024_09_025RMPm.pdf" style="float:none">適正使用ガイド（単剤療法）</a></div></td><td><div><a target="_blank" href="https://www.pmda.go.jp/RMP/www/180188/a3a75261-9c19-4494-a9ff-cb2cf22dfa5b/180188_4291427A1024_08_026RMPm.pdf" style="float:none">オプジーボによる治療を受ける方へ</a></div></td><td><div class="doubles"><a target="_blank" href="https://www.info.pmda.go.jp/kaiteip/20250909A001/16.pdf">2025年09月09日医薬安発0909第１号 別紙16</a></div><div class="doubles"><a target="_blank" href="https://www.info.pmda.go.jp/kaiteip/20240717A001/04.pdf">2024年07月17日医薬安発0717第1号 別紙4</a></div><div><a target="_blank" href="https://www.info.pmda.go.jp/shourei/pmdsi412/02.pdf">[根拠症例]</a></div><div class="doubles"><a target="_blank" href="https://www.info.pmda.go.jp/kaiteip/20231124A001/01.pdf">2023年11月24日医薬薬審発1124第3号、医薬安発1124第1号 別紙1</a></div><div class="doubles"><a target="_blank" href="https://www.info.pmda.go.jp/kaiteip/20230613A001/02.pdf">2023年06月13日薬生安発0613第1号 別紙2</a></div><div><a target="_blank" href="https://www.info.pmda.go.jp/shourei/pmdsi402/01.pdf">[根拠症例]</a></div><div class="doubles"><a target="_blank" href="https://www.info.pmda.go.jp/kaiteip/20221012A001/04.pdf">2022年10月12日薬生安発1012第1号 別紙4</a></div><div class="doubles"><a target="_blank" href="https://www.info.pmda.go.jp/kaiteip/20220614A001/02.pdf">2022年06月14日薬生安発0614第1号 別紙2</a></div><div class="doubles"><a target="_blank" href="https://www.info.pmda.go.jp/kaiteip/20210621A001/01.pdf">2021年06月21日薬生安発0621第1号 別紙1</a></div><div class="doubles"><a target="_blank" href="https://www.info.pmda.go.jp/kaiteip/20201105A001/02.pdf">2020年11月05日薬生安発1105第1号 別紙2</a></div><a class="toggles">▶…全て表示</a><div style="display:none;"><a class="togglec">▼非表示…</a><div><a target="_blank" href="https://www.info.pmda.go.jp/shourei/pmdsi378/01.pdf">[根拠症例]</a></div><div class="doubles"><a target="_blank" href="https://www.info.pmda.go.jp/kaiteip/20190709A009/02.pdf">2019年07月09日薬生安発0709第9号 別紙2</a></div><div><a target="_blank" href="https://www.info.pmda.go.jp/shourei/pmdsi365/01.pdf">[根拠症例]</a></div><div class="doubles"><a target="_blank" href="https://www.info.pmda.go.jp/kaiteip/20190604A001/05.pdf">2019年06月04日薬生安発0604第1号 別紙5</a></div><div><a target="_blank" href="https://www.info.pmda.go.jp/shourei/pmdsi364/02.pdf">[根拠症例]</a></div><div class="doubles"><a target="_blank" href="https://www.info.pmda.go.jp/kaiteip/20190509A003/10.pdf">2019年05月09日薬生安発0509第3号 別紙10</a></div><div><a target="_blank" href="https://www.info.pmda.go.jp/shourei/pmdsi363/03.pdf">[根拠症例]</a></div><div class="doubles"><a target="_blank" href="https://www.info.pmda.go.jp/kaiteip/20190212A001/03.pdf">2019年02月12日薬生安発0212第1号 別紙3</a></div><div><a target="_blank" href="https://www.info.pmda.go.jp/shourei/pmdsi361/02.pdf">[根拠症例]</a></div><div class="doubles"><a target="_blank" href="https://www.info.pmda.go.jp/kaiteip/20170704A001/11.pdf">2017年07月04日薬生安発0704第1号 別紙11</a></div><div class="doubles"><a target="_blank" href="https://www.info.pmda.go.jp/kaiteip/20161018A003/05.pdf">2016年10月18日薬生安発1018第3号 別紙5</a></div><div><a target="_blank" href="https://www.info.pmda.go.jp/shourei/pmdsi338/04.pdf">[根拠症例]</a></div><div class="doubles"><a target="_blank" href="https://www.info.pmda.go.jp/kaiteip/20151124A001/02.pdf">2015年11月24日薬生安発1124第1号 別紙2</a></div><div><a target="_blank" href="https://www.info.pmda.go.jp/shourei/pmdsi332/01.pdf">[根拠症例]</a></div><div class="doubles"><a target="_blank" href="https://www.info.pmda.go.jp/kaiteip/20150915A001/05.pdf">2015年09月15日薬食安発0915第1号 別紙5</a></div><div><a target="_blank" href="https://www.info.pmda.go.jp/shourei/pmdsi327/03.pdf">[根拠症例]</a></div></div></td><td><div><div>審査報告書</div><br><!--doubles--><a target="_blank" href="https://www.pmda.go.jp/drugs/2025/P20250903002/180188000_22600AMX00768_A100_1.pdf">審査報告書(2025年08月25日)</a></div><div><a target="_blank" href="https://www.pmda.go.jp/drugs/2025/P20250903002/index.html">申請資料概要</a></div><div class="doubles"><a target="_blank" href="https://www.pmda.go.jp/drugs/2025/P20250623004/180188000_22600AMX00768_A100_1.pdf">審査報告書(2025年06月24日)</a></div><div></div><div class="doubles"><a target="_blank" href="https://www.pmda.go.jp/drugs/2025/P20250108003/180188000_22600AMX00768_A100_1.pdf">審査報告書(2024年12月27日)</a></div><div></div><div class="doubles"><a target="_blank" href="https://www.pmda.go.jp/drugs/2024/P20240219002/180188000_22600AMX00768_A100_1.pdf">審査報告書(2024年02月09日)</a></div><div><a target="_blank" href="https://www.pmda.go.jp/drugs/2024/P20240219002/index.html">申請資料概要</a></div><div class="doubles"><a target="_blank" href="https://www.pmda.go.jp/drugs/2023/P20231115003/180188000_22600AMX00768_A100_2.pdf">審査報告書(2023年11月24日)</a></div><div><a target="_blank" href="https://www.pmda.go.jp/drugs/2023/P20231115003/index.html">申請資料概要</a></div><a class="toggles">▶…残りを表示</a><div style="display:none;"><a class="togglec">▼非表示…</a><div class="doubles"><a target="_blank" href="https://www.pmda.go.jp/drugs/2023/P20230407002/180188000_22600AMX00768_A100_2.pdf">審査報告書(2023年03月27日)</a></div><div><a target="_blank" href="https://www.pmda.go.jp/drugs/2023/P20230407002/180188000_22600AMX00768_A101_1.pdf">正誤表</a></div><div class="doubles"><a target="_blank" href="https://www.pmda.go.jp/drugs/2022/P20220526001/180188000_22600AMX00768_A100_1.pdf">審査報告書(2022年05月26日)</a></div><div></div><div class="doubles"><a target="_blank" href="https://www.pmda.go.jp/drugs/2022/P20220329001/180188000_22600AMX00768_A100_1.pdf.pdf">審査報告書(2022年03月28日)</a></div><div></div><div class="doubles"><a target="_blank" href="https://www.pmda.go.jp/drugs/2021/P20211213002/180188000_22600AMX00768_A100_1.pdf">審査報告書(2021年12月24日)</a></div><div><a target="_blank" href="https://www.pmda.go.jp/drugs/2021/P20211213002/index.html">申請資料概要</a></div><div class="doubles"><a target="_blank" href="https://www.pmda.go.jp/drugs/2021/P20211208001/180188000_22600AMX00768_A100_1.pdf">審査報告書(2021年11月25日)</a></div><div></div><div class="doubles"><a target="_blank" href="https://www.pmda.go.jp/drugs/2021/P20210921001/180188000_22600AMX00768_A100_1.pdf">審査報告書(2021年09月27日)</a></div><div><a target="_blank" href="https://www.pmda.go.jp/drugs/2021/P20210921001/index.html">申請資料概要</a></div><div class="doubles"><a target="_blank" href="https://www.pmda.go.jp/drugs/2021/P20210819002/180188000_22600AMX00768_A100_1.pdf">審査報告書(2021年08月25日)</a></div><div></div><div class="doubles"><a target="_blank" href="https://www.pmda.go.jp/drugs/2021/P20210527002/180188000_22600AMX00768_A100_1.pdf">審査報告書(2021年05月27日)</a></div><div></div><div class="doubles"><a target="_blank" href="https://www.pmda.go.jp/drugs/2020/P20201208001/180188000_22600AMX00768_A100_1.pdf">審査報告書(2020年11月27日)</a></div><div></div><div class="doubles"><a target="_blank" href="https://www.pmda.go.jp/drugs/2020/P20201002001/180188000_22600AMX00768_A100_1.pdf">審査報告書(2020年09月25日)</a></div><div></div><div class="doubles"><a target="_blank" href="https://www.pmda.go.jp/drugs/2020/P20200228001/180188000_22600AMX00768_A100_1.pdf">審査報告書(2020年02月21日)</a></div><div></div><div class="doubles"><a target="_blank" href="https://www.pmda.go.jp/drugs/2018/P20180914003/180188000_22600AMX00768_A100_1.pdf">審査報告書(2018年09月21日)</a></div><div><a target="_blank" href="https://www.pmda.go.jp/drugs/2018/P20180914003/index.html">申請資料概要（剤型追加）</a></div><div class="doubles"><a target="_blank" href="https://www.pmda.go.jp/drugs/2018/P20181107001/180188000_22600AMX00768_A100_1.pdf">審査報告書(2018年08月21日)</a></div><div><a target="_blank" href="https://www.pmda.go.jp/drugs/2018/P20181107001/index.html">申請資料概要（悪性黒色腫ー術後補助療法・悪性胸膜中皮腫）</a></div><div class="doubles"><a target="_blank" href="https://www.pmda.go.jp/drugs/2018/P20181112001/180188000_22600AMX00768_A100_1.pdf">審査報告書(2018年08月21日)</a></div><div><a target="_blank" href="https://www.pmda.go.jp/drugs/2018/P20181112001/index.html">申請資料概要（新用量）</a></div><div class="doubles"><a target="_blank" href="https://www.pmda.go.jp/drugs/2018/P20181115001/180188000_22600AMX00768_A100_1.pdf">審査報告書(2018年08月21日)</a></div><div><a target="_blank" href="https://www.pmda.go.jp/drugs/2018/P20181115001/index.html">申請資料概要（腎細胞癌）</a></div><div class="doubles"><a target="_blank" href="https://www.pmda.go.jp/drugs/2018/P20180524001/180188000_22600AMX00768000_A001_1.pdf">審査報告書(2018年05月25日)</a></div><div></div><div class="doubles"><a target="_blank" href="https://www.pmda.go.jp/drugs/2017/P20171003001/180188000_22600AMX00768_A100_1.pdf">審査報告書(2017年09月22日)</a></div><div></div><div class="doubles"><a target="_blank" href="https://www.pmda.go.jp/drugs/2017/P20170323001/180188000_22600AMX00768_A100_1.pdf">審査報告書(2017年03月24日)</a></div><div></div><div class="doubles"><a target="_blank" href="https://www.pmda.go.jp/drugs/2016/P20161208002/180188000_22600AMX00768_A100_1.pdf">審査報告書(2016年12月02日)</a></div><div><a target="_blank" href="https://www.pmda.go.jp/drugs/2016/P20161208002/index.html">申請資料概要</a></div><div class="doubles"><a target="_blank" href="https://www.pmda.go.jp/drugs/2016/P20160831001/180188000_22600AMX00768_A100_1.pdf">審査報告書(2016年08月26日)</a></div><div><a target="_blank" href="https://www.pmda.go.jp/drugs/2016/P20160831001/index.html">申請資料概要</a></div><div class="togglem">...(他6件)</div></div><div class="toggleo" style="display: none;"><div class="doubles"><a target="_blank" href="https://www.pmda.go.jp/drugs/2016/P20160224004/180188000_22600AMX00768_A100_1.pdf">審査報告書(2016年02月29日)</a></div><div></div><div class="doubles"><a target="_blank" href="https://www.pmda.go.jp/drugs/2015/P20151222005/180188000_22600AMX00768_A100_1.pdf">審査報告書(2015年12月17日)</a></div><div><a target="_blank" href="https://www.pmda.go.jp/drugs/2015/P20151222005/index.html">申請資料概要</a></div><div class="doubles"><a target="_blank" href="https://www.pmda.go.jp/drugs/2014/P201400114/180188000_22600AMX00768_A100_1.pdf">審査報告書(2014年07月04日)</a></div><div><a target="_blank" href="https://www.pmda.go.jp/drugs/2014/P201400114/index.html">申請資料概要</a><div></div></div></div><br><hr><div></div><br><div>再審査報告書</div><br><!--doubles--><a target="_blank" href="https://www.pmda.go.jp/drugs_reexam/2025/P20250822002/180188000_22600AMX00768_A100_1.pdf">再審査報告書(2025年09月10日)</a><div><a target="_blank" href="https://www.pmda.go.jp/drugs_reexam/2025/P20250822002/index.html">再審査申請資料概要</a></div><div class="doubles"><a target="_blank" href="https://www.pmda.go.jp/drugs_reexam/2023/P20230605001/180188000_22600AMX00768_A100_1.pdf">再審査報告書(2023年06月07日)</a></div><div><a target="_blank" href="https://www.pmda.go.jp/drugs_reexam/2023/P20230605001/index.html">再審査申請資料概要</a><div></div><hr><div></div><br><div>最適使用推進ガイドライン</div><br><!--doubles--><a target="_blank" href="https://www.pmda.go.jp/files/000276044.pdf">肝細胞癌（最適GL）</a></div><div class="doubles"><a target="_blank" href="https://www.pmda.go.jp/files/000277946.pdf">上皮系皮膚悪性腫瘍（最適GL）</a></div><div class="doubles"><a target="_blank" href="https://www.pmda.go.jp/files/000277945.pdf">悪性中皮腫（最適GL）</a></div><div class="doubles"><a target="_blank" href="https://www.pmda.go.jp/files/000272819.pdf">尿路上皮癌（最適GL）</a></div><div class="doubles"><a target="_blank" href="https://www.pmda.go.jp/files/000277944.pdf">原発不明癌（最適GL）</a></div><div class="doubles"><a target="_blank" href="https://www.pmda.go.jp/files/000272817.pdf">食道癌（最適GL）</a></div><div class="doubles"><a target="_blank" href="https://www.pmda.go.jp/files/000276709.pdf"> MSI-High結腸・直腸癌（最適GL）</a></div><div class="doubles"><a target="_blank" href="https://www.pmda.go.jp/files/000277943.pdf">悪性胸膜中皮腫（最適GL）</a></div><div class="doubles"><a target="_blank" href="https://www.pmda.go.jp/files/000272814.pdf">胃癌（最適GL）</a></div><div class="doubles"><a target="_blank" href="https://www.pmda.go.jp/files/000272811.pdf">頭頸部癌（最適GL）</a></div><a class="toggles">▶…全て表示</a><div style="display:none;"><a class="togglec">▼非表示…</a><div class="doubles"><a target="_blank" href="https://www.pmda.go.jp/files/000277942.pdf">古典的ホジキンリンパ腫（最適GL）</a></div><div class="doubles"><a target="_blank" href="https://www.pmda.go.jp/files/000272812.pdf">腎細胞癌（最適GL）</a></div><div class="doubles"><a target="_blank" href="https://www.pmda.go.jp/files/000277941.pdf">悪性黒色腫（最適GL）</a></div><div class="doubles"><a target="_blank" href="https://www.pmda.go.jp/files/000272809.pdf">非小細胞肺癌（最適GL）</a></div></div><br></td></tr>
+</tbody></table>
+<div class="SearchResultMenu mt_15">
+<p class="col23 PageNavi"><strong>検索結果1件／全1ページ</strong><br><br>
+<span>1</span></p>
+</div><!-- / #SearchResultMenu -->
+</div><!-- / #SearchWrap02 -->
+</div><!--- / .SearchScrollInr -->
+
+
+
+<!-- add 2.01: Form情報を画面に保持する -->
+
+<input id="nameWord" name="nameWord" type="hidden" value="オプジーボ">
+<input id="iyakuHowtoNameSearchRadioValue" name="iyakuHowtoNameSearchRadioValue" type="hidden" value="1">
+<input id="howtoMatchRadioValue" name="howtoMatchRadioValue" type="hidden" value="1">
+<input id="effectValue" name="effectValue" type="hidden" value="">
+<input id="infoindicationsorefficacy" name="infoindicationsorefficacy" type="hidden" value="">
+<input id="infoindicationsorefficacyHowtoSearch" name="infoindicationsorefficacyHowtoSearch" type="hidden" value="and">
+<input id="warnings" name="warnings" type="hidden" value="">
+<input id="warningsHowtoSearch" name="warningsHowtoSearch" type="hidden" value="and">
+<input id="contraindicationsAvoidedadministration" name="contraindicationsAvoidedadministration" type="hidden" value="">
+<input id="contraindicationsAvoidedadministrationHowtoSearch" name="contraindicationsAvoidedadministrationHowtoSearch" type="hidden" value="and">
+<input id="contraindicatedcombinationPrecautionsforcombination" name="contraindicatedcombinationPrecautionsforcombination" type="hidden" value="">
+<input id="contraindicatedcombinationPrecautionsforcombinationHowtoSearch" name="contraindicatedcombinationPrecautionsforcombinationHowtoSearch" type="hidden" value="and">
+
+	<input id="dispColumns0" name="dispColumnsList[0]" value="1" type="hidden">
+
+	<input id="dispColumns1" name="dispColumnsList[1]" value="2" type="hidden">
+
+	<input id="dispColumns2" name="dispColumnsList[2]" value="3" type="hidden">
+
+	<input id="dispColumns3" name="dispColumnsList[3]" value="23" type="hidden">
+
+	<input id="dispColumns4" name="dispColumnsList[4]" value="25" type="hidden">
+
+	<input id="dispColumns5" name="dispColumnsList[5]" type="hidden" value="">
+
+	<input id="dispColumns6" name="dispColumnsList[6]" type="hidden" value="">
+
+	<input id="dispColumns7" name="dispColumnsList[7]" value="4" type="hidden">
+
+	<input id="dispColumns8" name="dispColumnsList[8]" value="11" type="hidden">
+
+	<input id="dispColumns9" name="dispColumnsList[9]" type="hidden" value="">
+
+	<input id="dispColumns10" name="dispColumnsList[10]" type="hidden" value="">
+
+	<input id="dispColumns11" name="dispColumnsList[11]" type="hidden" value="">
+
+	<input id="dispColumns12" name="dispColumnsList[12]" type="hidden" value="">
+
+	<input id="dispColumns13" name="dispColumnsList[13]" type="hidden" value="">
+
+	<input id="dispColumns14" name="dispColumnsList[14]" type="hidden" value="">
+
+	<input id="dispColumns15" name="dispColumnsList[15]" type="hidden" value="">
+
+	<input id="dispColumns16" name="dispColumnsList[16]" type="hidden" value="">
+
+	<input id="dispColumns17" name="dispColumnsList[17]" type="hidden" value="">
+
+	<input id="dispColumns18" name="dispColumnsList[18]" type="hidden" value="">
+
+<input id="changeColumnsList" name="changeColumnsList" type="hidden" value="">
+<input id="updateDocFrDt" name="updateDocFrDt" type="hidden" value="年月日 [YYYYMMDD]">
+<input id="updateDocToDt" name="updateDocToDt" type="hidden" value="年月日 [YYYYMMDD]">
+<input id="tglOpFlg" name="tglOpFlg" type="hidden" value="">
+<input id="compNameWord" name="compNameWord" type="hidden" value="">
+<input id="koumoku1Value" name="koumoku1Value" type="hidden" value="">
+<input id="koumoku2Value" name="koumoku2Value" type="hidden" value="">
+<input id="koumoku3Value" name="koumoku3Value" type="hidden" value="">
+<input id="koumoku1Word" name="koumoku1Word" type="hidden" value="">
+<input id="koumoku2Word" name="koumoku2Word" type="hidden" value="">
+<input id="koumoku3Word" name="koumoku3Word" type="hidden" value="">
+<input id="koumoku1HowtoSearch" name="koumoku1HowtoSearch" type="hidden" value="and">
+<input id="koumoku2HowtoSearch" name="koumoku2HowtoSearch" type="hidden" value="and">
+<input id="koumoku3HowtoSearch" name="koumoku3HowtoSearch" type="hidden" value="and">
+<input id="howtoRdSearchSel" name="howtoRdSearchSel" type="hidden" value="or">
+<input id="relationDoc1Sel" name="relationDoc1Sel" type="hidden" value="">
+<input id="relationDoc2Sel" name="relationDoc2Sel" type="hidden" value="">
+<input id="relationDoc3Sel" name="relationDoc3Sel" type="hidden" value="">
+<input id="relationDoc1check1" name="relationDoc1check1" type="hidden" value="on">
+<input id="relationDoc1check2" name="relationDoc1check2" type="hidden" value="on">
+<input id="relationDoc2check1" name="relationDoc2check1" type="hidden" value="on">
+<input id="relationDoc2check2" name="relationDoc2check2" type="hidden" value="on">
+<input id="relationDoc3check1" name="relationDoc3check1" type="hidden" value="on">
+<input id="relationDoc3check2" name="relationDoc3check2" type="hidden" value="on">
+<input id="relationDoc1Word" name="relationDoc1Word" type="hidden" value="検索語を入力">
+<input id="relationDoc2Word" name="relationDoc2Word" type="hidden" value="検索語を入力">
+<input id="relationDoc3Word" name="relationDoc3Word" type="hidden" value="検索語を入力">
+<input id="relationDoc1HowtoSearch" name="relationDoc1HowtoSearch" type="hidden" value="and">
+<input id="relationDoc2HowtoSearch" name="relationDoc2HowtoSearch" type="hidden" value="and">
+<input id="relationDoc3HowtoSearch" name="relationDoc3HowtoSearch" type="hidden" value="and">
+<input id="relationDoc1FrDt" name="relationDoc1FrDt" type="hidden" value="年月 [YYYYMM]">
+<input id="relationDoc1ToDt" name="relationDoc1ToDt" type="hidden" value="年月 [YYYYMM]">
+<input id="relationDoc2FrDt" name="relationDoc2FrDt" type="hidden" value="年月 [YYYYMM]">
+<input id="relationDoc2ToDt" name="relationDoc2ToDt" type="hidden" value="年月 [YYYYMM]">
+<input id="relationDoc3FrDt" name="relationDoc3FrDt" type="hidden" value="年月 [YYYYMM]">
+<input id="relationDoc3ToDt" name="relationDoc3ToDt" type="hidden" value="年月 [YYYYMM]">
+<input id="relationDocHowtoSearchBetween12" name="relationDocHowtoSearchBetween12" type="hidden" value="and">
+<input id="relationDocHowtoSearchBetween23" name="relationDocHowtoSearchBetween23" type="hidden" value="and">
+<input id="listRows" name="ListRows" type="hidden" value="10">
+<input id="searchCnt" name="searchCnt" type="hidden" value="1">
+<input id="totalPages" name="totalPages" type="hidden" value="1">
+<input id="pages" name="pages" type="hidden" value="1">
+<input id="listCategory" name="listCategory" type="hidden" value="BOOK">
+<!-- add 2.01: 職員識別フラグを追加 -->
+<input id="personFlg" name="personFlg" type="hidden" value="false">
+<input id="gs1code" name="gs1code" type="hidden" value="">
+<input id="iyakuKoumokuSelectSwitchRadio" name="iyakuKoumokuSelectSwitchRadio" type="hidden" value="2">
+
+</form>
+
+</div><!-- / .PopupInner-->
+</div><!-- / .PopupArea-->
+</div><!-- / #ContentMainArea-->
+</div><!-- / #MainContents -->
+</div><!-- / #ContentArea .HTML5_section -->
+</div><!--/ContentWrap-->
+
+<div id="popDiv" style="position: fixed; visibility: show; left: 10px; top:10px; z-index: 5;"></div>
+<div id="popDiv2" style="position: fixed; visibility:show; z-index: 5;"></div></div>
+
+
+
+</body></html>
