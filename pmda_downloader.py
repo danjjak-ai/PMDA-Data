@@ -81,6 +81,7 @@ FOLDER_MAP = {
     "DSU": "DSU（医薬品安全対策情報）",
     "PMDA安全情報": "PMDA医療安全情報",
     "問合せ先": "医療用医薬品問合せ先",
+    "CTD": "申請資料概要",
     "その他": "その他", # 分類不可の場合
 }
 
@@ -256,6 +257,8 @@ class PMDAClient:
                 results["医薬品リスク管理計画（RMP）"].append(doc)
             elif "履歴" in text or "根拠症例" in text:
                 results["改訂指示反映履歴および根拠症例"].append(doc)
+            elif "申請資料概要" in text or "CTD" in text_upper:
+                results["申請資料概要"].append(doc)
             elif "審査" in text or "最適使用" in text or "review" in href.lower():
                 results["審査報告書／再審査報告書／最適使用推進ガイドライン等"].append(doc)
             elif "重篤" in text or "疾患" in text:
